@@ -1,0 +1,31 @@
+{
+  "name": "img-flip",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Urucas/img-flip",
+  "authors": [
+    "Urucas <hello@urucas.com>"
+  ],
+  "description": "A simple Polymer element that flip an image horizontally or vertically",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "polymer",
+    "polyfills",
+    "img",
+    "image",
+    "html5"
+  ],
+  "license": "Apache 2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.4.1"
+  }
+}
