@@ -14,9 +14,10 @@ Import polymer element into yor html
 
 Set the flip attribute: [horizontal | vertical]
 ```html
-	<img-flip src="images/detail-oruganaranja.png" flip="horizontal"></img-flip>
-	<img-flip src="images/detail-oruganaranja.png" flip="vertical"></img-flip>
+<img-flip src="images/detail-oruganaranja.png" flip="horizontal"></img-flip>
+<img-flip src="images/detail-oruganaranja.png" flip="vertical"></img-flip>
 ```
 
 Demo
 ====
+http://urucas.github.io/img-flip/
