@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Img-flip by Urucas</title>
-
+		
+		<script src="/bower_components/platform/platform.js"></script>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="import" href="/elements/img-flip.html">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -43,9 +45,13 @@
 
 <p>Set the flip attribute: [horizontal | vertical]</p>
 
-<div class="highlight highlight-html"><pre>    <span class="nt">&lt;img-flip</span> <span class="na">src=</span><span class="s">"images/detail-oruganaranja.png"</span> <span class="na">flip=</span><span class="s">"horizontal"</span><span class="nt">&gt;&lt;/img-flip&gt;</span>
-    <span class="nt">&lt;img-flip</span> <span class="na">src=</span><span class="s">"images/detail-oruganaranja.png"</span> <span class="na">flip=</span><span class="s">"vertical"</span><span class="nt">&gt;&lt;/img-flip&gt;</span>
-</pre></div>
+<div class="highlight highlight-html"><pre><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"images/detail-oruganaranja.png"</span><span class="nt">&gt;&lt;/img&gt;</span></pre><img src="images/detail-oruganaranja.png" /><br/><pre><span class="nt">&lt;img-flip</span> <span class="na">src=</span><span class="s">"images/detail-oruganaranja.png"</span> <span class="na">flip=</span><span class="s">"horizontal"</span><span class="nt">&gt;&lt;/img-flip&gt;</span></pre><img-flip src="images/detail-oruganaranja.png" flip="horizontal"></img-flip><br /><pre><span class="nt">&lt;img-flip</span> <span class="na">src=</span><span class="s">"images/detail-oruganaranja.png"</span> <span class="na">flip=</span><span class="s">"vertical"</span><span class="nt">&gt;&lt;/img-flip&gt;</span></pre><img-flip src="images/detail-oruganaranja.png" flip="vertical"></img-flip>
+			
+				
+				
+
+					
+			</div>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/Urucas">Urucas</a></p>
